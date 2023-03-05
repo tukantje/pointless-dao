@@ -69,9 +69,11 @@ export default function Home() {
               contract.erc1155.claim(0, 1);
             }}
             onSuccess={() => {
-              console.log(
-                `🌊 Successfully minted! Check it out on OpenSea: https://testnets.opensea.io/assets/${editionDrop.getAddress()}/0`
-              );
+              if (editionDrop) {
+                console.log(
+                  `🌊 Successfully minted! Check it out on OpenSea: https://testnets.opensea.io/assets/${editionDrop.getAddress()}/0`
+                );
+              }
             }}
             onError={(error) => {
               console.error("Failed to mint NFT: ", error);
