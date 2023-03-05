@@ -10,6 +10,7 @@
     "deploy-drop": "ts-node scripts/deploy-drop.ts",
     "config-nft": "ts-node scripts/config-nft.ts",
     "set-claim-conditions": "ts-node scripts/set-claim-conditions.ts",
+    "deploy-token": "ts-node scripts/deploy-token.ts",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
