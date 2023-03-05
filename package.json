@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "initialize-sdk": "ts-node scripts/initialize-sdk.ts",
     "deploy-drop": "ts-node scripts/deploy-drop.ts",
+    "config-nft": "ts-node scripts/config-nft.ts",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
