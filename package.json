@@ -15,6 +15,7 @@
     "airdrop-token": "ts-node scripts/airdrop-token.ts",
     "deploy-vote": "ts-node scripts/deploy-vote.ts",
     "setup-vote": "ts-node scripts/setup-vote.ts",
+    "create-proposals": "ts-node scripts/create-proposals.ts",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
