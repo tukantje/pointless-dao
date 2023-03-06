@@ -29,6 +29,13 @@
   font-size: 4rem;
 }
 
+.subtitle {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.15;
+  text-align: center;
+}
+
 .title,
 .description {
   text-align: center;
@@ -116,4 +123,8 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.members-section {
+  margin-top: 3rem;
 }
