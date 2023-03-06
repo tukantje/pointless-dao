@@ -16,6 +16,7 @@
     "deploy-vote": "ts-node scripts/deploy-vote.ts",
     "setup-vote": "ts-node scripts/setup-vote.ts",
     "create-proposals": "ts-node scripts/create-proposals.ts",
+    "revoke-roles": "ts-node scripts/revoke-roles.ts",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
